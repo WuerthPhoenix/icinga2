@@ -11,7 +11,7 @@ namespace icinga
 
 class User : CustomVarObject
 {
-	activation_priority -10;
+	activation_priority -5;
 
 	[config] String display_name {
 		get {{{
